@@ -189,16 +189,21 @@
 	.maicon {
 		max-width: 65%;
 	}
+
+	.copyright {
+		position: static;
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 359px) {
 	.main-content {
 		.title {
-			font-size: 38px;
+			font-size: 37px;
 		}
 
 		h2 {
-			font-size: 15.5px;
+			font-size: 15px;
 		}
 
 		.bottom {
@@ -211,15 +216,9 @@
 
 @media (max-height: 567px) {
 	#header {
-		padding-bottom: 60px;
-
 		.container {
 			height: auto;
 		}
-	}
-
-	.copyright {
-		bottom: -35px;
 	}
 }
 

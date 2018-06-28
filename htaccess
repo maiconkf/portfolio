@@ -7,6 +7,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
+RewriteRule ^en/?$ index.php?lang=$1 [QSA,NC,L]
+
 RedirectMatch 301 /tpls/(.*) /$1
 
 <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
