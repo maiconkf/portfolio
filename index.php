@@ -12,9 +12,10 @@
         <meta name="author" content="Maicon Knabach Furtado" />
         <meta name="robots" content="follow, all" />
         <meta property="og:title" content="Maicon Furtado | Front-End Developer" />
-        <meta property="og:image" content="http://www.maiconfurtado.com.br/dist/img/share.jpg" />
+        <meta property="og:image" content="http://maiconfurtado.com.br/dist/img/share.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://maiconfurtado.com.br" />
+        <meta property="og:description" content="Desenvolvedor web na cidade de Pelotas-RS, com foco no desenvolvimento Front-End." />
         <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
         <style>
@@ -77,7 +78,7 @@
 						<div class="col col-7 col-6-sm">
 							<div>
 								<h1 class="title"><strong>Maicon Furtado</strong></h1>
-								<h2>Desenvolvedor Fron-End desde 2012.</h2>
+								<h2>Desenvolvedor Front-End desde 2012.</h2>
 							</div>
 							<div class="bottom">
 								<p>Precisa de um site ou de um freela? Entre em contato:</p>
@@ -117,12 +118,15 @@
 		    <div class="loading"></div>
 		</div>
 		<script async src="./dist/js/scripts.min.js"></script>
-        <script>
-            var _gaq=[['_setAccount','UA-45158993-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-45158993-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>
 

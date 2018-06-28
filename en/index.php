@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>Maicon Furtado - Front-End Developer</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="favicon.png" />
+		<link rel="icon" href="../favicon.png" />
 		<meta name="google-site-verification" content="0llhDOl134rwbg5-sxXw4bDB_4zINu4H29XrrvUgzxc" />
         <meta name="description" content="Senior Front-End Developer Engineer from Pelotas-RS, Brazil." />
         <meta name="keywords" content="maicon furtado, website development, front-end, freelancer, freela, pelotas, rs, brazil" />
         <meta name="author" content="Maicon Knabach Furtado" />
         <meta name="robots" content="follow, all" />
         <meta property="og:title" content="Maicon Furtado | Front-End Developer" />
-        <meta property="og:image" content="http://www.maiconfurtado.com.br/dist/img/share.jpg" />
+        <meta property="og:image" content="http://maiconfurtado.com.br/dist/img/share.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://maiconfurtado.com.br" />
+        <meta property="og:description" content="Senior Front-End Developer Engineer from Pelotas-RS, Brazil." />
         <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
         <style>
@@ -116,13 +117,16 @@
 		<div id="pre-loader">
 		    <div class="loading"></div>
 		</div>
-		<script async src="../dist/js/scripts.min.js"></script>
-        <script>
-            var _gaq=[['_setAccount','UA-45158993-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+		<script async src="/dist/js/scripts.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-45158993-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>
 

@@ -9,7 +9,8 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	pngquant = require('imagemin-pngquant');
 
-var php  = ['./*.php'],
+var php  = ['./*.php',
+            './en/*.php'],
     scss = ['./sass/**/*.scss'],
 	css  = ['./dist/css/reset.css',
             './dist/css/main.css'],

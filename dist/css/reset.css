@@ -61,8 +61,7 @@ textarea {
 .container {
   width: 90%;
   max-width: 1170px;
-  margin: 0 auto;
-  position: relative; }
+  margin: 0 auto; }
 
 .col-5 {
   width: 41.66667%; }
@@ -180,4 +179,15 @@ textarea {
 
 @media (max-width: 767px) {
   .col-5, .col-7, .col-10 {
-    width: 100%; } }
+    width: 100%; }
+  #modal .box {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding-bottom: 20px; }
+  #modal .textarea {
+    height: 118px !important; } }

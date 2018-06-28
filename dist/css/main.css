@@ -13,14 +13,16 @@
   #header .container {
     height: calc(100vh - 65px); }
 
-.menu li {
-  margin-left: 27px;
-  transition: all .4s; }
-  .menu li a {
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 600; }
+.menu {
+  position: relative; }
+  .menu li {
+    margin-left: 27px;
+    transition: all .4s; }
+    .menu li a {
+      color: #fff;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 600; }
 
 .menu--link:after {
   content: '';
@@ -76,7 +78,8 @@
 
 .copyright {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
+  left: 0;
   width: 100%;
   text-align: center; }
 

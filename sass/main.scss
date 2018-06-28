@@ -18,6 +18,8 @@
 }
 
 .menu {
+	position: relative;
+
 	li {
 		margin-left: 27px;
 		transition: all .4s;
@@ -110,7 +112,8 @@
 
 .copyright {
 	position: absolute;
-	bottom: 0;
+	bottom: 20px;
+	left: 0;
 	width: 100%;
 	text-align: center;
 }

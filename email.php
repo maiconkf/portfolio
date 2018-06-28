@@ -33,8 +33,9 @@
 	//Enviando o email
 	//====================================================
 	if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){
-		echo array('status' => 'success');
+		echo json_encode(array('status' => 'success'));
 	} else{
-		echo array('status' => 'error');
+		echo json_encode(array('status' => 'error'));
+	}
 	//====================================================
 ?>

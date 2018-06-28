@@ -96,11 +96,13 @@ app.contact = function() {
 
 		ajax.send(data);
 
-		// Cria um evento para receber o retorno.
 		ajax.onreadystatechange = function() {
+			console.log(ajax.readyState);
+			console.log(ajax.status);
+
 			if (ajax.readyState == 4 && ajax.status == 200) {
 		    	fadeOut('modal', .4);
-			} else {
+			} else if(ajax.status != 200) {
 				alert('erro');
 			}
 		}
