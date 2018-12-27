@@ -73,7 +73,7 @@
 				<section class="clearfix main-content center-block">
 					<main class="flex">
 						<picture class="col col-5 col-6-sm pull-left">
-							<img src="./dist/img/Maicon-Furtado.jpg" srcset="./dist/img/Maicon-Furtado@2x.jpg 2x, ./dist/img/Maicon-Furtado@2x.jpg 3x" alt="Maicon Furtado - Desenvolvedor Front-End" class="maicon img-responsive center-block" width="300" height="300">
+							<img src="/dist/img/Maicon-Furtado.jpg" srcset="/dist/img/Maicon-Furtado@2x.jpg 2x, /dist/img/Maicon-Furtado@2x.jpg 3x" alt="Maicon Furtado - Desenvolvedor Front-End" class="maicon img-responsive center-block" width="300" height="300">
 						</picture>
 						<div class="col col-7 col-6-sm">
 							<div>
@@ -117,7 +117,7 @@
 		<div id="pre-loader">
 		    <div class="loading"></div>
 		</div>
-		<script async src="./dist/js/scripts.min.js"></script>
+		<script async src="/dist/js/scripts.min.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -130,7 +130,7 @@
 	</body>
 </html>
 
-<link rel="stylesheet" href="./dist/css/styles.min.css">
+<link rel="stylesheet" href="/dist/css/styles.min.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|600|700" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/regular.css" integrity="sha384-avJt9MoJH2rB4PKRsJRHZv7yiFZn8LrnXuzvmZoD3fh1aL6aM6s0BBcnCvBe6XSD" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">

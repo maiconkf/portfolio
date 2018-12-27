@@ -1,0 +1,56 @@
+.container--no-height {
+	height: auto!important;
+}
+
+.container--blog {
+	background-color: #fff;
+    box-shadow: 0 0 23px 0 rgba(0,0,0,.28);
+    margin: 50px auto;
+    padding: 60px;
+    color: #000;
+    position: relative;
+}
+
+.post__title {
+	font-family: 'Staatliches', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #000;
+}
+
+.post__title--smaller {
+	font-family: 'Staatliches', cursive;
+	font-size: 35px;
+	margin: 50px 0 15px;
+}
+
+.post {
+	font-size: 15px;
+	margin-top: 40px;
+
+	p {
+		line-height: 1.5;
+	}
+
+	a {
+		color: #ef3e42;
+	}
+
+	img {
+		margin-top: 30px;
+	}
+}
+
+.post__text--margin {
+	margin-top: 20px;
+}
+
+.post__img--margin {
+	margin-top: 10px!important;
+}
+
+.post__text--caption {
+	margin-top: 8px;
+	text-align: center;
+}

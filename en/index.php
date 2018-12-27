@@ -62,7 +62,7 @@
 					<nav>
 						<ul class="lang menu pull-left">
 							<li><a href="/en" class="active">En</a></li>
-							<li><a href="/">Pt</a></li>
+							<li><a href="/pt/">Pt</a></li>
 						</ul>
 						<ul class="menu pull-right">
 							<li class="menu--link"><a href="/files/CV-Maicon-Furtado-en.pdf" target="_blank">CV</a></li>
