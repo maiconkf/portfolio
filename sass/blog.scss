@@ -1,10 +1,19 @@
+.header--blog {
+	background-image: none!important;
+	background-color: #ef3e42;
+
+	#particles-js {
+		position: fixed;
+	}
+}
+
 .container--no-height {
 	height: auto!important;
 }
 
 .container--blog {
 	background-color: #fff;
-    box-shadow: 0 0 23px 0 rgba(0,0,0,.28);
+    box-shadow: 0 0 23px 0 rgba(0,0,0,.18);
     margin: 50px auto;
     padding: 60px;
     color: #000;

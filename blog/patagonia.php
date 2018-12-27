@@ -55,7 +55,7 @@
         </style>
 	</head>
 	<body>
-		<section id="header">
+		<section id="header" class="header--blog">
 			<div id="particles-js"></div>
 			<article id="post">
 				<div class="container container--no-height clearfix">
