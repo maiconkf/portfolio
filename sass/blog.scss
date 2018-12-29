@@ -44,6 +44,7 @@
 
 	a {
 		color: #ef3e42;
+		word-break: break-word;
 	}
 
 	img {
@@ -59,7 +60,48 @@
 	margin-top: 10px!important;
 }
 
+.post__img--lunch {
+	height: 520px;
+}
+
 .post__text--caption {
 	margin-top: 8px;
 	text-align: center;
+}
+
+@media (max-width: 1310px) {
+	.post__day6 {
+		.col-6 {
+			width: 100%;
+		}
+	}
+
+	.post__img--full {
+		width: 100%;
+		height: auto;
+		object-position: center;
+
+		&:last-of-type {
+			margin-top: 10px;
+		}
+	}
+}
+
+@media (max-width: 1100px) {
+	.container--blog {
+		padding: 60px 35px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container--blog {
+		padding: 60px 20px;
+	}
+
+	.post__links {
+		a {
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+	}
 }

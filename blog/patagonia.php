@@ -72,8 +72,12 @@
 				<div class="container container--no-height container--blog">
 					<h1 class="post__title"><strong>PATAGÔNIA - DEZEMBRO DE 2018</strong></h1>
 					<div class="post">
-						<p>Planilha de gastos: <a href="http://bit.ly/patagonia2018" target="_blank">http://bit.ly/patagonia2018</a></p>
-						<p>Instagram: <a href="https://instagram.com/maiconkf" target="_blank">@maiconkf</a></p>
+						<div class="post__links">
+							<p>Planilha de gastos: <a href="http://bit.ly/patagonia2018" target="_blank">http://bit.ly/patagonia2018</a></p>
+							<p>Desconto para a primeira hospedagem usando o Airbnb: <a href="https://www.airbnb.com.br/c/maiconf117?currency=BRL" target="_blank">https://www.airbnb.com.br/c/maiconf117?currency=BRL</a></p>
+							<p>Desconto para a primeira viagem de Uber: <a href="https://www.uber.com/invite/dn4urh35ue" target="_blank">dn4urh35ue</a></p>
+							<p>Instagram: <a href="https://instagram.com/maiconkf" target="_blank">@maiconkf</a></p>
+						</div>
 						<h2 class="post__title--smaller">ROTEIRO:</h2>
 						<p>DIA 1 - Chegada em Buenos Aires</p>
 						<p>DIA 2 - Chegada em Puerto Natales</p>
@@ -91,8 +95,12 @@
 						<p>Saí de Pelotas-RS às 07h da manhã, do dia 12 de dezembro, com destino a Porto Alegre. De Porto Alegre, peguei um voo para Buenos Aires, onde cheguei por volta das 14h local. Ao chegar no aeroporto, fui direto procurar pelo Banco La Nacion, porém o câmbio estava muito ruim se comparado com o câmbio da <a href="https://www.facebook.com/cambiomais.brazucas/" target="_blank">Mais Brazucas</a>. No Banco, a cotação tava R$8,70 e na Mais Brazucas estava R$9,40. Uma grande diferença, não? Então eu aproveitei o Wi-fi do aeroporto e resolvi pedir um Uber até a Calle Florida. <b>Atenção:</b> O motorista do Uber não tinha dinheiro algum pra pagar a tal da autopista (?), então ele ficou rodando até achar alguém que soubesse como chegar no centro sem ter que passar pela pista onde cobram para trafegar. Então, por via das dúvidas, é bom trocar o valor mínimo no banco que tem dentro do aeroporto.</p>
 						<p class="post__text--margin">Após trocar o dinheiro na Mais Brazucas, fui bater perna no centro em busca de um chip de celular pra poder chamar um Uber até meu hostel. Depois de andar (e me perder) muito, eu encontrei uma loja da Claro. O chip custou $50 pesos argentinos + $150 pesos argentinos em créditos pra usar por 10 dias. Me foi muito útil, menos em El Chaltén, onde lá não tem sinal nenhum de celular.</p>
 						<div class="clearfix">
-							<img src="../dist/img/blog/Obelisco.jpg" alt="Obelisco" class="img-responsive pull-left" width="520" height="924">
-							<img src="../dist/img/blog/Maicon-Obelisco.jpg" alt="Selfie no Obelisco" class="img-responsive pull-right" width="520" height="924">
+							<div class="col-6 pull-left">
+								<img src="../dist/img/blog/Obelisco.jpg" alt="Obelisco" class="img-responsive pull-left" width="520" height="924">
+							</div>
+							<div class="col-6 pull-right">
+								<img src="../dist/img/blog/Maicon-Obelisco.jpg" alt="Selfie no Obelisco" class="img-responsive pull-right" width="520" height="924">
+							</div>
 						</div>
 						<p class="post__text--margin">Com o chip em mãos, comecei a minha saga em busca de um Uber. Em Buenos Aires, é muito burocrático pegar um Uber. Tu não pode pedir um Uber em qualquer rua. Tem que ser em ruas específicas e em local exato nessas ruas. Eu precisei caminhar quase 10 minutos até a rua certa para pedir um Uber. Achei que a minha saga teria acabado alí, mas não. Demora muito pra encontrar um motorista e está sempre na dinâmica. Quando eu finalmente encontrei um motorista, ele cancelou a corrida enquanto vinha até mim. Meia hora depois, consegui entrar em um carro.</p>
 						<p class="post__text--margin">Do centro, fui para o <a href="https://www.booking.com/hotel/ar/puerto-limon-hostel.pt-br.html" target="_blank">Puerto Limon Hostel</a>. O hostel é bem bonito e moderno, porém o Wi-fi não funcionou direito no quarto de número 6. Paguei R$23 numa promoção de Black Friday. Valeu super a pena! Cama confortável e localização ótima!</p>
@@ -109,7 +117,7 @@
 						<div class="clearfix">
 							<img src="../dist/img/blog/Milodon.jpg" alt="Milodón" class="img-responsive" width="1050" height="1050">
 						</div>
-						<p class="post__text--margin">Ah, fiquei hospedado no hostel <a href="https://www.airbnb.com.br/rooms/22159737?guests=1&adults=1" target="_blank"> El Fiordo.</a> O hostel é super perto da rodoviária e de um mercadinho e de um supermercado! Ele só não tem tomadas do lado da cama, mas é um ótimo custo-benefício!</p>
+						<p class="post__text--margin">Ah, fiquei hospedado no hostel <a href="https://www.airbnb.com.br/rooms/22159737?guests=1&adults=1" target="_blank"> El Fiordo.</a> O hostel é super perto da rodoviária, de um mercadinho e de um supermercado! Ele só não tem tomadas do lado da cama, mas é um ótimo custo-benefício!</p>
 						<h2 class="post__title--smaller">DIA 4:</h2>
 						<p>Este dia foi punk. Saí de Puerto Natales as 07h sem comer nada e cheguei em Torres del Paine as 09h15min. Levei na mochila vários alimentos, como: três achocolatados, três bananas, bolacha água e sal, bolacha recheada de chocolate, barra de cereal, barra de chocolate... Porém, eu acho que não foi o suficiente para me dar energia para completar o trekking!</p>
 						<p class="post__text--margin">Na ida, o que era pra ser feito em 4h, foi feito em 5h30min. São subidas constantes, o que acabou com as forças nas minhas pernas na volta. Para voltar, eu tomei um achocolatado e comi uma barra de chocolate inteirinha, o que me deu forças por 1h30min. Eu caminhava super rápido, quase correndo... tudo isso para conseguir chegar a tempo de pegar o ônibus de volta para a cidade de Puerto Natales, às 19h. Porém, começou a me bater um sono danado, meus olhos tavam se fechando sozinhos e as minhas pernas não tinham mais forças para continuar. Sentei no chão duas vezes, coloquei o celular pra despertar em 10min e fechei os olhos. Na segunda vez que fiz isso, um casal inglês me viu e perguntou se eu estava bem. Falei que não, então eles me ajudaram me puxando pelo braço por alguns metros. Vendo que eu não tinha muita força para continuar, eles me deram muito açúcar, como: balas jujubas, chá com açúcar, chocolate Twix, além de água, nozes, bastão de trekking e ainda carregaram minha mochila que nem estava pesada. Foram realmente uns anjos em minha vida! Eu achava que ainda faltava muito para eu chegar ao meu destino, mas não... faltava só mais 01h30min.</p>
@@ -126,14 +134,56 @@
 						<p>Dia de fazer o mini trekking no Glaciar Perito Moreno!</p>
 						<p class="post__text--margin">Às 08h30min, a <a href="http://hieloyaventura.com" target="_blank">Hielo y Aventura</a> veio até meu hostel me buscar de ônibus. Haviam vários brasileiros no passeio.</p>
 						<p class="post__text--margin">O meu passeio foi na seguinte ordem: transfer de barco até o glaciar, mini trekking, almoço e transfer para as passarelas. Um outro grupo começou na ordem invertida.</p>
-						<p class="post__text--margin">O mini trekking dura em torno de 01h30min. Esse é o tempo de uma das experiências mais incríveis da minha vida! Antes de começar, é colocado <em>grampons</em> nos calçados e nos é ensinado a como caminhar sobre o gelo.</p>
-						<div class="clearfix">
-							<img src="../dist/img/blog/Grampons.jpg" alt="Grampons" class="img-responsive" width="1050" height="1050">
-						</div>
-						<p class="post__text--margin">No final do mini trekking, é servido whisky com o gelo do glaciar. Pra quem não bebe, é servido água e bombons.</p>
+						<p class="post__text--margin">O mini trekking dura em torno de 01h30min. Esse é o tempo de uma das experiências mais incríveis da minha vida! Antes de começar, é colocado <em>grampons</em> nos calçados e nos é ensinado a como caminhar sobre o gelo. No final do mini trekking, é servido whisky com o gelo do glaciar. Pra quem não bebe, é servido água e bombons.</p>
 						<p class="post__text--margin">Após retirarmos os <em>grampons</em>, a gente vai almoçar (tem que levar comida) com uma das paisagens mais lindas:</p>
+						<div class="clearfix post__day6">
+							<div class="col-6 pull-left">
+								<img src="../dist/img/blog/Grampons.jpg" alt="Grampons" class="img-responsive post__img--full pull-left" width="520" height="1050">
+							</div>
+							<div class="col-6 pull-right">
+								<img src="../dist/img/blog/Almoco-Perito-Moreno.jpg" alt="Almoço no Perito Moreno" class="img-responsive post__img--full post__img--lunch pull-right" width="520" height="1870">
+							</div>
+						</div>
+						<p class="post__text--margin">No final do passeio, a gente foi levado de catamarã até o outro lado do parque, onde ficam as passarelas. Lá foi permitido caminhar pelas passarelas por 45 minutos, tempo mais que suficiente para tirar boas fotos!</p>
 						<div class="clearfix">
-							<img src="../dist/img/blog/Almoco-Perito-Moreno.jpg" alt="Almoço no Perito Moreno" class="img-responsive" width="1050" height="1870">
+							<img src="../dist/img/blog/Perito-Moreno-Passarela.JPG" alt="Passarelas do Perito Moreno" class="img-responsive" width="1050" height="567">
+							<img src="../dist/img/blog/Mini-trekking-Perito-Moreno.JPG" alt="Passarelas do Perito Moreno" class="img-responsive post__img--margin" width="1050" height="1229">
+						</div>
+						<p class="post__text--margin">OBS: É obrigatório o uso de luvas para andar sobre a geleira. Caso não tenha, eles emprestam. Mas é bom levar sua própria luva. Outra coisa que é bom lembrar, é de usar protetor solar. Eu esqueci no dia e fiquei todo queimado.</p>
+						<h2 class="post__title--smaller">DIA 7:</h2>
+						<p>No sétimo dia, eu peguei um ônibus que vai de El Calafate até El Chaltén. A viagem não demora muito. Dura cerca de 3h. Chegando em El Chaltén, os ônibus param no Centro de Visitantes, onde nos é passado algumas informações da cidade e das trilhas. Após uma breve apresentação do que se tem para fazer na cidade, nos são dados dois folhetos com o mapa da cidade e das trilhas. Nesses mapas contém também a duração para fazer cada trilha, além de informações sobre os tipos de animais que vivem na Patagônia e de telefones úteis.</p>
+						<p class="post__text--margin">Após essa recepção, fui até o <a href="https://www.booking.com/hotel/ar/auka.pt-br.html" target="_blank">Hostel Wenüy</a>, onde eu fiquei hospedado 04 noites. O hostel é próximo da rodoviária, porém é um pouco distante da trilha para o Fitz Roy e para o Chorrillo del Salto. Porém a cidade é tão pequenininha, que em 15 minutos se consegue chegar de ponta a ponta da cidade saindo do hostel. Sobre o hostel: ele tem um bom custo benefício, porém eu achei um pouco ruim os banheiros. As vezes as lixeiras estavam lotadas e o piso todo molhado. Também não possui sabonete líquido nos banheiros. Mas nada que tenha afetado minha estadia no local. O wi-fi do hostel é muito instável, assim como o wi-fi de qualquer estabelecimento da cidade. As vezes funciona normalmente e as vezes não consegue nem carregar os stories do Instagram. E, ah... a cidade não possui sinal nenhum de celular, então não tem como usar o pacote de dados nos momentos em que o wi-fi não está funcionando como deveria.</p>
+						<p class="post__text--margin">Já era meio-dia quando eu terminei de fazer checkin e fui procurar restaurante pra almoçar. Acredita que tinha restaurante que nem estava aberto ainda? Entrei num achando que estava aberto, mas os funcionários recem estavam chegando. Pedi um prato que vinha com carne e a garçonete falou que ia demorar, pelo menos, 30 minutos para começar a fazer, então me sugeriu uma massa, pois seria mais rápido o preparo. E, realmente, foi bem rápido! Pedi um ravióli de cordeiro muito bom.</p>
+						<p class="post__text--margin">Após o almoço, fui encontrar com 02 brasileiros para fazer a trilha dos Miradores Los Condores e Las Aguilas. As trilhas são bem tranquilas de serem feitas. Em 02 horas se consegue ir e voltar das trilhas. A trilha é bem bacana pra quem não tem muito tempo disponível. Ela serve como uma trilha coringa para dias nublados.</p>
+						<div class="clearfix">
+							<img src="../dist/img/blog/Trilha-Miradores-Los-Condores-e-Las-Aguilas.jpg" alt="Trilha dos Miradores Los Condores e Las Aguilas" class="img-responsive" width="1050" height="567">
+						</div>
+						<h2 class="post__title--smaller">DIA 8:</h2>
+						<p>Chegou o grande dia para conhecer o imponente Fitz Roy! Para fazer a trilha Laguna de Los Tres, tem duas opções: pagar $400 pesos num transfer que te leva até a Hosteria El Pilar ou sair caminhando pela cidade de El Chalten e fazer a trilha pelo caminho tradicional. Eu optei pela segunda opção por 02 motivos: achei bem salgado o preço do transfer e porque os dois brasileiros que eu conheci durante a viagem iriam pelo caminho tradicional. Achei mais seguro ir com eles.</p>
+						<p class="post__text--margin">A diferença entre as duas opções de chegada até o Fitz Roy é que a segunda opção tem algumas subidas nos primeiro 2 ou 3km, mas depois fica bem tranquilo de chegar até o nono quilom. Do nono ao décimo é bem complicado. Nesse último trecho da trilha possui uma elevação de 400m em 01km. Leva em torno de 01h para subir até o topo, mas vale a pena cada esforço!</p>
+						<p class="post__text--margin">No dia 6, eu falei que o mini-trekking foi uma das experiências mais incríveis da minha vida. Porém, o Fitz Roy foi o ápice da minha viagem! O lugar é incrível! Toquei na neve pela primeira vez na minha vida e ainda brinquei de esquibunda nela hahaha.</p>
+						<div class="clearfix">
+							<img src="../dist/img/blog/Neve-Fitz-Roy.JPG" alt="Neve em Fitz Roy" class="img-responsive" width="1050" height="761">
+						</div>
+						<p class="post__text--margin">A volta é um pouco tenso por conta da descida de 400m. É muito aconselhável alugar por $150 um par de bastão de trekking para ajudar a descer. A descida tem varias pedrinhas soltas pelo caminho... é fácil resbalar e cair de bunda no chão.</p>
+						<div class="clearfix">
+							<img src="../dist/img/blog/Fitz-Roy.JPG" alt="Fitz Roy" class="img-responsive" width="1050" height="567">
+						</div>
+						<h2 class="post__title--smaller">DIA 9:</h2>
+						<p>Após 20km de trilha no dia anterior, resolvi tirar o dia para descansar. Fiquei uma boa parte do tempo no hostel, porém eu saí pra procurar presentes para comprar e parei pra tomar umas cervejas em um dos barzinhos da cidade. Também aproveitei pra comer bastante empanadas no Che Empanadas. Sério, empanadas é muito bom! Lembra um pouco o gosto de um calzone.</p>
+						<h2 class="post__title--smaller">DIA 10:</h2>
+						<p>No meu último dia na Patagônia, o tempo ficou meio nublado, com cara de que ia chover. Como eu estava muito satisfeito com o Fitz Roy, achei melhor não fazer a trilha para a Laguna Torre. Essa trilha tem duração de 06h. São 02km a menos que a do Fitz Roy. Sendo assim, resolvi fazer uma trilha mais leve e escolhi a trilha para o Chorrillo del Salto, com duração de 01h30min. A trilha é pouco procurada, então não tinha ninguém indo para ela no horário que eu fui, só via gente voltando. Chegando lá, haviam algumas famílias e uma excursão, no qual ficaram pouco tempo apreciando a cachoeira, o que ficou ótimo para eu poder tirar umas fotos sem ninguém aparecer nelas.</p>
+						<div class="clearfix">
+							<img src="../dist/img/blog/Chorrillo-del-Salto.JPG" alt="Chorrillo del Salto" class="img-responsive" width="1050" height="1050">
+						</div>
+						<h2 class="post__title--smaller">DIA 11 E 12:</h2>
+						<p>Chegou a hora de voltar a realidade. Voltei de ônibus para El Calafate, onde lá eu peguei um vôo para Córdoba pra depois pegar um vôo na madrugada para Buenos Aires. Cheguei no Brasil às 08h30min cheio de boas histórias para contar.</p>
+						<div class="post__links">
+							<h2 class="post__title--smaller">LINKS ÚTEIS:</h2>
+							<p>Planilha de gastos: <a href="http://bit.ly/patagonia2018" target="_blank">http://bit.ly/patagonia2018</a></p>
+							<p>Desconto para a primeira hospedagem usando o Airbnb: <a href="https://www.airbnb.com.br/c/maiconf117?currency=BRL" target="_blank">https://www.airbnb.com.br/c/maiconf117?currency=BRL</a></p>
+							<p>Desconto para a primeira viagem de Uber: <a href="https://www.uber.com/invite/dn4urh35ue" target="_blank">dn4urh35ue</a></p>
+							<p>Instagram: <a href="https://instagram.com/maiconkf" target="_blank">@maiconkf</a></p>
 						</div>
 					</div>
 				</div>

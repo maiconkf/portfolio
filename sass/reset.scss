@@ -74,6 +74,10 @@ textarea {
 	width: 41.66667%;
 }
 
+.col-6 {
+	width: 49.5%;
+}
+
 .col-7 {
 	width: 58.33333%;
 }
@@ -98,6 +102,7 @@ textarea {
 .img-responsive {
 	max-width: 100%;
 	height: auto;
+    object-fit: cover;
 }
 
 .flex {
