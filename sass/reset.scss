@@ -70,6 +70,10 @@ textarea {
 	margin: 0 auto;
 }
 
+.col-4 {
+	width: 33%;
+}
+
 .col-5 {
 	width: 41.66667%;
 }
@@ -80,6 +84,10 @@ textarea {
 
 .col-7 {
 	width: 58.33333%;
+}
+
+.col-8 {
+	width: 66%;
 }
 
 .col-10 {
@@ -214,7 +222,7 @@ textarea {
 }
 
 @media (max-width: 767px) {
-	.col-5, .col-7, .col-10 {
+	.col-4, .col-5, .col-7, .col-8, .col-10 {
 		width: 100%;
 	}
 

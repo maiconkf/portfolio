@@ -1,3 +1,8 @@
+<?php
+	$dest = array('900040411', '-985388', '-897492');
+	$random = $dest[array_rand($dest)];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -5,17 +10,19 @@
 		<title>Maicon Furtado - Desenvolvedor Front-End</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="favicon.png" />
+		<link rel="icon" href="../favicon.png" />
 		<meta name="google-site-verification" content="0llhDOl134rwbg5-sxXw4bDB_4zINu4H29XrrvUgzxc" />
-        <meta name="description" content="Desenvolvedor web na cidade de Pelotas-RS, com foco no desenvolvimento Front-End." />
-        <meta name="keywords" content="maicon furtado, criação de sites, desenvolvimento web, front-end, freelancer, freela, pelotas, rs, brasil" />
+		<meta name="B-verify" content="3f162952c62bc0a8777e6e871b93036e677ca420" />
+		<meta name="verification" content="b4eaaad363289d9e7c6a704fc4f9e20c" />
+        <meta name="description" content="Roteiro completo de 12 dias de viagem para a Patagônia Chilena e Argentina, com link para planilha de gastos." />
+        <meta name="keywords" content="maicon furtado, criação de sites, desenvolvimento web, front-end, freelancer, freela, pelotas, rs, brasil, patagonia, roteiro, argentina, chile" />
         <meta name="author" content="Maicon Knabach Furtado" />
         <meta name="robots" content="follow, all" />
         <meta property="og:title" content="Maicon Furtado | Front-End Developer" />
-        <meta property="og:image" content="http://maiconfurtado.com.br/dist/img/share.jpg" />
+        <meta property="og:image" content="http://maiconfurtado.com.br/dist/img/blog/Mini-trekking-Perito-Moreno.JPG" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://maiconfurtado.com.br" />
-        <meta property="og:description" content="Desenvolvedor web na cidade de Pelotas-RS, com foco no desenvolvimento Front-End." />
+        <meta property="og:description" content="Roteiro completo de 12 dias de viagem para a Patagônia Chilena e Argentina, com link para planilha de gastos." />
         <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
         <style>
@@ -53,6 +60,13 @@
                 top: calc(50% - 28px);
             }
         </style>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+		    google_ad_client: "ca-pub-5511617118809606",
+		    enable_page_level_ads: true
+		  });
+		</script>
 	</head>
 	<body>
 		<section id="header" class="header--blog">
@@ -74,23 +88,33 @@
 					<div class="post">
 						<div class="post__links">
 							<p>Planilha de gastos: <a href="http://bit.ly/patagonia2018" target="_blank">http://bit.ly/patagonia2018</a></p>
-							<p>Desconto para a primeira hospedagem usando o Airbnb: <a href="https://www.airbnb.com.br/c/maiconf117?currency=BRL" target="_blank">https://www.airbnb.com.br/c/maiconf117?currency=BRL</a></p>
+							<p>Desconto entre R$130 para a primeira hospedagem usando o Airbnb: <a href="https://www.airbnb.com.br/c/maiconf117?currency=BRL" target="_blank">https://www.airbnb.com.br/c/maiconf117?currency=BRL</a></p>
 							<p>Desconto para a primeira viagem de Uber: <a href="https://www.uber.com/invite/dn4urh35ue" target="_blank">dn4urh35ue</a></p>
 							<p>Instagram: <a href="https://instagram.com/maiconkf" target="_blank">@maiconkf</a></p>
 						</div>
-						<h2 class="post__title--smaller">ROTEIRO:</h2>
-						<p>DIA 1 - Chegada em Buenos Aires</p>
-						<p>DIA 2 - Chegada em Puerto Natales</p>
-						<p>DIA 3 - Full day em Torres del Paine</p>
-						<p>DIA 4 - Trilha para a base das Torres</p>
-						<p>DIA 5 - Chegada em El Calafate</p>
-						<p>DIA 6 - Glaciar Perito Moreno</p>
-						<p>DIA 7 - Chegada em El Chaltén e trilha Miradores Los Condores e Las Aguilas</p>
-						<p>DIA 8 - Trilha para Laguna de Los Tres (Fitz Roy)</p>
-						<p>DIA 9 - Descanso</p>
-						<p>DIA 10 - Trilha para Chorrillo del Salto</p>
-						<p>DIA 11 - Volta (El Chaltén > El Calafate > Córdoba)</p>
-						<p>DIA 12 - Volta (Córdoba > Buenos Aires > Brasil)</p>
+						<div class="clearfix">
+							<div class="col-8 pull-left">
+								<h2 class="post__title--smaller">ROTEIRO:</h2>
+								<p>DIA 1 - Chegada em Buenos Aires</p>
+								<p>DIA 2 - Chegada em Puerto Natales</p>
+								<p>DIA 3 - Full day em Torres del Paine</p>
+								<p>DIA 4 - Trilha para a base das Torres</p>
+								<p>DIA 5 - Chegada em El Calafate</p>
+								<p>DIA 6 - Glaciar Perito Moreno</p>
+								<p>DIA 7 - Chegada em El Chaltén e trilha Miradores Los Condores e Las Aguilas</p>
+								<p>DIA 8 - Trilha para Laguna de Los Tres (Fitz Roy)</p>
+								<p>DIA 9 - Descanso</p>
+								<p>DIA 10 - Trilha para Chorrillo del Salto</p>
+								<p>DIA 11 - Volta (El Chaltén > El Calafate > Córdoba)</p>
+								<p>DIA 12 - Volta (Córdoba > Buenos Aires > Brasil)</p>
+							</div>
+							<div class="col-4 pull-right">
+								<ins class="bookingaff" data-aid="1674346" data-target_aid="1674346" data-prod="dfl2" data-width="100%" data-height="auto" data-lang="xb" data-dest_id="<?= $random; ?>" data-dest_type="city" data-df_num_properties="3">
+							    	<!-- Anything inside will go away once widget is loaded. -->
+							        <a href="//www.booking.com?aid=1674346">Booking.com</a>
+								</ins>
+							</div>
+						</div>
 						<h2 class="post__title--smaller">DIA 1:</h2>
 						<p>Saí de Pelotas-RS às 07h da manhã, do dia 12 de dezembro, com destino a Porto Alegre. De Porto Alegre, peguei um voo para Buenos Aires, onde cheguei por volta das 14h local. Ao chegar no aeroporto, fui direto procurar pelo Banco La Nacion, porém o câmbio estava muito ruim se comparado com o câmbio da <a href="https://www.facebook.com/cambiomais.brazucas/" target="_blank">Mais Brazucas</a>. No Banco, a cotação tava R$8,70 e na Mais Brazucas estava R$9,40. Uma grande diferença, não? Então eu aproveitei o Wi-fi do aeroporto e resolvi pedir um Uber até a Calle Florida. <b>Atenção:</b> O motorista do Uber não tinha dinheiro algum pra pagar a tal da autopista (?), então ele ficou rodando até achar alguém que soubesse como chegar no centro sem ter que passar pela pista onde cobram para trafegar. Então, por via das dúvidas, é bom trocar o valor mínimo no banco que tem dentro do aeroporto.</p>
 						<p class="post__text--margin">Após trocar o dinheiro na Mais Brazucas, fui bater perna no centro em busca de um chip de celular pra poder chamar um Uber até meu hostel. Depois de andar (e me perder) muito, eu encontrei uma loja da Claro. O chip custou $50 pesos argentinos + $150 pesos argentinos em créditos pra usar por 10 dias. Me foi muito útil, menos em El Chaltén, onde lá não tem sinal nenhum de celular.</p>
@@ -103,7 +127,7 @@
 							</div>
 						</div>
 						<p class="post__text--margin">Com o chip em mãos, comecei a minha saga em busca de um Uber. Em Buenos Aires, é muito burocrático pegar um Uber. Tu não pode pedir um Uber em qualquer rua. Tem que ser em ruas específicas e em local exato nessas ruas. Eu precisei caminhar quase 10 minutos até a rua certa para pedir um Uber. Achei que a minha saga teria acabado alí, mas não. Demora muito pra encontrar um motorista e está sempre na dinâmica. Quando eu finalmente encontrei um motorista, ele cancelou a corrida enquanto vinha até mim. Meia hora depois, consegui entrar em um carro.</p>
-						<p class="post__text--margin">Do centro, fui para o <a href="https://www.booking.com/hotel/ar/puerto-limon-hostel.pt-br.html" target="_blank">Puerto Limon Hostel</a>. O hostel é bem bonito e moderno, porém o Wi-fi não funcionou direito no quarto de número 6. Paguei R$23 numa promoção de Black Friday. Valeu super a pena! Cama confortável e localização ótima!</p>
+						<p class="post__text--margin">Do centro, fui para o <a href="https://www.booking.com/hotel/ar/puerto-limon-hostel.pt-br.html?aid=1673278" target="_blank">Puerto Limon Hostel</a>. O hostel é bem bonito e moderno, porém o Wi-fi não funcionou direito no quarto de número 6. Paguei R$23 numa promoção de Black Friday. Valeu super a pena! Cama confortável e localização ótima!</p>
 						<h2 class="post__title--smaller">DIA 2:</h2>
 						<p>No dia seguinte, peguei um voo para El Calafate. Cheguei um pouco antes do meio-dia. Lá no aeroporto, eu peguei um transfer até a rodoviária. Custou $250 pesos. Almocei na frente da rodoviária e aguardei até as 16h30min pelo ônibus que vai até Puerto Natales.</p>
 						<p class="post__text--margin">Como eu só ia chegar às 22h em Puerto Natales, resolvi trocar dinheiro só o necessário aqui no Brasil. Peguei uma cotação péssima, mas era a única opção. Troquei $40 mil pesos chilenos, onde $21 mil pesos era pra entrada do Parque Torres del Paine, $5 mil era para entrada na Cueva del Milodón (não recomendo) e $6 mil de transfer dentro do parque para o ínicio da trilha para a base das torres. O restante seria para compra de alimentação.</p>
@@ -117,7 +141,7 @@
 						<div class="clearfix">
 							<img src="../dist/img/blog/Milodon.jpg" alt="Milodón" class="img-responsive" width="1050" height="1050">
 						</div>
-						<p class="post__text--margin">Ah, fiquei hospedado no hostel <a href="https://www.airbnb.com.br/rooms/22159737?guests=1&adults=1" target="_blank"> El Fiordo.</a> O hostel é super perto da rodoviária, de um mercadinho e de um supermercado! Ele só não tem tomadas do lado da cama, mas é um ótimo custo-benefício!</p>
+						<p class="post__text--margin">Ah, fiquei hospedado no hostel <a href="https://www.booking.com/hotel/cl/el-fiordo.pt-br.html?aid=1673278" target="_blank"> El Fiordo.</a> O hostel é super perto da rodoviária, de um mercadinho e de um supermercado! Ele só não tem tomadas do lado da cama, mas é um ótimo custo-benefício!</p>
 						<h2 class="post__title--smaller">DIA 4:</h2>
 						<p>Este dia foi punk. Saí de Puerto Natales as 07h sem comer nada e cheguei em Torres del Paine as 09h15min. Levei na mochila vários alimentos, como: três achocolatados, três bananas, bolacha água e sal, bolacha recheada de chocolate, barra de cereal, barra de chocolate... Porém, eu acho que não foi o suficiente para me dar energia para completar o trekking!</p>
 						<p class="post__text--margin">Na ida, o que era pra ser feito em 4h, foi feito em 5h30min. São subidas constantes, o que acabou com as forças nas minhas pernas na volta. Para voltar, eu tomei um achocolatado e comi uma barra de chocolate inteirinha, o que me deu forças por 1h30min. Eu caminhava super rápido, quase correndo... tudo isso para conseguir chegar a tempo de pegar o ônibus de volta para a cidade de Puerto Natales, às 19h. Porém, começou a me bater um sono danado, meus olhos tavam se fechando sozinhos e as minhas pernas não tinham mais forças para continuar. Sentei no chão duas vezes, coloquei o celular pra despertar em 10min e fechei os olhos. Na segunda vez que fiz isso, um casal inglês me viu e perguntou se eu estava bem. Falei que não, então eles me ajudaram me puxando pelo braço por alguns metros. Vendo que eu não tinha muita força para continuar, eles me deram muito açúcar, como: balas jujubas, chá com açúcar, chocolate Twix, além de água, nozes, bastão de trekking e ainda carregaram minha mochila que nem estava pesada. Foram realmente uns anjos em minha vida! Eu achava que ainda faltava muito para eu chegar ao meu destino, mas não... faltava só mais 01h30min.</p>
@@ -152,7 +176,7 @@
 						<p class="post__text--margin">OBS: É obrigatório o uso de luvas para andar sobre a geleira. Caso não tenha, eles emprestam. Mas é bom levar sua própria luva. Outra coisa que é bom lembrar, é de usar protetor solar. Eu esqueci no dia e fiquei todo queimado.</p>
 						<h2 class="post__title--smaller">DIA 7:</h2>
 						<p>No sétimo dia, eu peguei um ônibus que vai de El Calafate até El Chaltén. A viagem não demora muito. Dura cerca de 3h. Chegando em El Chaltén, os ônibus param no Centro de Visitantes, onde nos é passado algumas informações da cidade e das trilhas. Após uma breve apresentação do que se tem para fazer na cidade, nos são dados dois folhetos com o mapa da cidade e das trilhas. Nesses mapas contém também a duração para fazer cada trilha, além de informações sobre os tipos de animais que vivem na Patagônia e de telefones úteis.</p>
-						<p class="post__text--margin">Após essa recepção, fui até o <a href="https://www.booking.com/hotel/ar/auka.pt-br.html" target="_blank">Hostel Wenüy</a>, onde eu fiquei hospedado 04 noites. O hostel é próximo da rodoviária, porém é um pouco distante da trilha para o Fitz Roy e para o Chorrillo del Salto. Porém a cidade é tão pequenininha, que em 15 minutos se consegue chegar de ponta a ponta da cidade saindo do hostel. Sobre o hostel: ele tem um bom custo benefício, porém eu achei um pouco ruim os banheiros. As vezes as lixeiras estavam lotadas e o piso todo molhado. Também não possui sabonete líquido nos banheiros. Mas nada que tenha afetado minha estadia no local. O wi-fi do hostel é muito instável, assim como o wi-fi de qualquer estabelecimento da cidade. As vezes funciona normalmente e as vezes não consegue nem carregar os stories do Instagram. E, ah... a cidade não possui sinal nenhum de celular, então não tem como usar o pacote de dados nos momentos em que o wi-fi não está funcionando como deveria.</p>
+						<p class="post__text--margin">Após essa recepção, fui até o <a href="https://www.booking.com/hotel/ar/auka.pt-br.html?aid=1673278" target="_blank">Hostel Wenüy</a>, onde eu fiquei hospedado 04 noites. O hostel é próximo da rodoviária, porém é um pouco distante da trilha para o Fitz Roy e para o Chorrillo del Salto. Porém a cidade é tão pequenininha, que em 15 minutos se consegue chegar de ponta a ponta da cidade saindo do hostel. Sobre o hostel: ele tem um bom custo benefício, porém eu achei um pouco ruim os banheiros. As vezes as lixeiras estavam lotadas e o piso todo molhado. Também não possui sabonete líquido nos banheiros. Mas nada que tenha afetado minha estadia no local. O wi-fi do hostel é muito instável, assim como o wi-fi de qualquer estabelecimento da cidade. As vezes funciona normalmente e as vezes não consegue nem carregar os stories do Instagram. E, ah... a cidade não possui sinal nenhum de celular, então não tem como usar o pacote de dados nos momentos em que o wi-fi não está funcionando como deveria.</p>
 						<p class="post__text--margin">Já era meio-dia quando eu terminei de fazer checkin e fui procurar restaurante pra almoçar. Acredita que tinha restaurante que nem estava aberto ainda? Entrei num achando que estava aberto, mas os funcionários recem estavam chegando. Pedi um prato que vinha com carne e a garçonete falou que ia demorar, pelo menos, 30 minutos para começar a fazer, então me sugeriu uma massa, pois seria mais rápido o preparo. E, realmente, foi bem rápido! Pedi um ravióli de cordeiro muito bom.</p>
 						<p class="post__text--margin">Após o almoço, fui encontrar com 02 brasileiros para fazer a trilha dos Miradores Los Condores e Las Aguilas. As trilhas são bem tranquilas de serem feitas. Em 02 horas se consegue ir e voltar das trilhas. A trilha é bem bacana pra quem não tem muito tempo disponível. Ela serve como uma trilha coringa para dias nublados.</p>
 						<div class="clearfix">
@@ -181,7 +205,7 @@
 						<div class="post__links">
 							<h2 class="post__title--smaller">LINKS ÚTEIS:</h2>
 							<p>Planilha de gastos: <a href="http://bit.ly/patagonia2018" target="_blank">http://bit.ly/patagonia2018</a></p>
-							<p>Desconto para a primeira hospedagem usando o Airbnb: <a href="https://www.airbnb.com.br/c/maiconf117?currency=BRL" target="_blank">https://www.airbnb.com.br/c/maiconf117?currency=BRL</a></p>
+							<p>Desconto de R$130 para a primeira hospedagem usando o Airbnb: <a href="https://www.airbnb.com.br/c/maiconf117?currency=BRL" target="_blank">https://www.airbnb.com.br/c/maiconf117?currency=BRL</a></p>
 							<p>Desconto para a primeira viagem de Uber: <a href="https://www.uber.com/invite/dn4urh35ue" target="_blank">dn4urh35ue</a></p>
 							<p>Instagram: <a href="https://instagram.com/maiconkf" target="_blank">@maiconkf</a></p>
 						</div>
@@ -218,6 +242,15 @@
 
 			ga('create', 'UA-45158993-1', 'auto');
 			ga('send', 'pageview');
+		</script>
+		<script type="text/javascript">
+		    (function(d, sc, u) {
+		      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+		      s.type = 'text/javascript';
+		      s.async = true;
+		      s.src = u + '?v=' + (+new Date());
+		      p.parentNode.insertBefore(s,p);
+		      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
 		</script>
 	</body>
 </html>
