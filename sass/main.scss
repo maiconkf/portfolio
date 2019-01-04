@@ -54,6 +54,10 @@
 		margin-right: 16px;
 		margin-left: 0;
 
+		&:last-of-type {
+			margin-right: 0;
+		}
+
 		a {
 			opacity: .6;
 
@@ -156,7 +160,7 @@
 
 	.menu {
 		li {
-			margin-left: 20px;
+			margin-left: 19px;
 		}
 	}
 

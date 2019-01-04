@@ -8,20 +8,17 @@ app.init = function() {
 
 app.hover = function() {
 	var elements = document.getElementsByClassName('menu--link');
-	for(var i = 0; i< elements.length; i++) { 
+	for(var i = 0; i < elements.length; i++) { 
         elements[i].addEventListener('mouseenter', function() {
-    		if(this.previousElementSibling) {
-    			this.previousElementSibling.style.opacity = '.6';
-    		} else {
-    			this.nextElementSibling.style.opacity = '.6';
-    		}
+        	Object.keys(elements).forEach(function(key) {
+    			elements[key].style.opacity = '.6';
+    		});
+    		this.style.opacity = '1';
     	});
         elements[i].addEventListener('mouseleave', function() {
-    		if(this.previousElementSibling) {
-    			this.previousElementSibling.style.opacity = '1';
-    		} else {
-    			this.nextElementSibling.style.opacity = '1';
-    		}
+        	Object.keys(elements).forEach(function(key) {
+    			elements[key].style.opacity = '1';
+    		});
     	});
     }
 };

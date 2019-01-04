@@ -65,6 +65,7 @@
 							<li><a href="/pt/">Pt</a></li>
 						</ul>
 						<ul class="menu pull-right">
+							<li class="menu--link"><a href="/blog">Blog in PT</a></li>
 							<li class="menu--link"><a href="/files/CV-Maicon-Furtado-en.pdf" target="_blank">CV</a></li>
 							<li class="menu--link"><a href="javascript:;" class="open-modal">Contact</a></li>
 						</ul>

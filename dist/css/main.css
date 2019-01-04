@@ -39,6 +39,8 @@
 .lang.menu li {
   margin-right: 16px;
   margin-left: 0; }
+  .lang.menu li:last-of-type {
+    margin-right: 0; }
   .lang.menu li a {
     opacity: .6; }
     .lang.menu li a.active {
@@ -104,7 +106,7 @@
     #header .container {
       height: calc(100vh - 45px); }
   .menu li {
-    margin-left: 20px; }
+    margin-left: 19px; }
   .main-content {
     position: static;
     -webkit-transform: none;
