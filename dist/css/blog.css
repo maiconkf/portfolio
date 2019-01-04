@@ -51,9 +51,20 @@
   margin-top: 8px;
   text-align: center; }
 
-.bookingaff {
-  margin-top: 45px;
+.booking-1 {
+  margin-top: 50px;
   display: block; }
+
+.booking-review {
+  margin-top: 6px;
+  display: block; }
+
+.booking-banner {
+  margin: 20px 0;
+  display: block; }
+
+.booking-banner--tablet, .booking-banner--mobile {
+  display: none; }
 
 @media (max-width: 1310px) {
   .post__day6 .col-6 {
@@ -71,11 +82,19 @@
 
 @media (max-width: 900px) {
   .col-4, .col-8 {
-    width: 100%; } }
+    width: 100%; }
+  .booking-banner--desktop {
+    display: none; }
+  .booking-banner--tablet {
+    display: block; } }
 
 @media (max-width: 767px) {
   .container--blog {
     padding: 60px 20px; }
   .post__links a {
     margin-bottom: 10px;
-    display: inline-block; } }
+    display: inline-block; }
+  .booking-banner--tablet {
+    display: none; }
+  .booking-banner--mobile {
+    display: block; } }

@@ -54,13 +54,6 @@
                 top: calc(50% - 28px);
             }
         </style>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<script>
-		  (adsbygoogle = window.adsbygoogle || []).push({
-		    google_ad_client: "ca-pub-5511617118809606",
-		    enable_page_level_ads: true
-		  });
-		</script>
 	</head>
 	<body>
 		<section id="header">
@@ -73,6 +66,7 @@
 							<li><a href="/" class="active">Pt</a></li>
 						</ul>
 						<ul class="menu pull-right">
+							<li class="menu--link"><a href="/blog">Blog</a></li>
 							<li class="menu--link"><a href="/files/CV-Maicon-Furtado.pdf" target="_blank">Currículo</a></li>
 							<li class="menu--link"><a href="javascript:;" class="open-modal">Contato</a></li>
 						</ul>
