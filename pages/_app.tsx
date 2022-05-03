@@ -11,6 +11,7 @@ const theme = createTheme({
     secondary: {
       light: "#C696FC",
       main: "#95AAFB",
+      dark: "#2E2E48",
     },
   },
   typography: {
@@ -34,6 +35,15 @@ const theme = createTheme({
       "@media (min-width: 1200px)": {
         fontSize: "1.5rem",
       },
+    },
+
+    h3: {
+      fontSize: "1.4rem",
+      lineHeight: "1.33",
+      fontWeight: 500,
+      letterSpacing: "0.01em",
+      position: "relative",
+      color: "#E2E6EE",
     },
   },
 });

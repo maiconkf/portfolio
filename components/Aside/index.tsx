@@ -24,9 +24,8 @@ const Aside: React.FC = () => {
       sx={{
         backgroundColor: "primary.main",
         width: "100%",
-        maxWidth: ["100%", "100%", "100%", "352px"],
       }}
-      p={3}
+      p={[2, 2, 2, 3]}
     >
       <Avatar
         src="https://scontent.fpet3-1.fna.fbcdn.net/v/t1.6435-9/68902702_10214676645095308_8695338020066295808_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF0FVDwtQerYdM5vU5P8y5FjBaQYHQjvuGMFpBgdCO-4Q8lCBR2wN1X9e7ftUKUdgU&_nc_ohc=b89PjI5TJrkAX84b7KZ&_nc_ht=scontent.fpet3-1.fna&oh=00_AT-HDvssOh7varqL_-H9Rj0i_6QMTsXK1Mj5AYmoX-S3ow&oe=628F2782"
