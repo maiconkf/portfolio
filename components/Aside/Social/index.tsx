@@ -33,7 +33,7 @@ const Social: React.FC = () => {
           {name === "Linkedin" ? (
             <LinkedInIcon
               sx={{
-                color: "#E2E6EE",
+                color: "primary.contrastText",
                 width: 24,
                 height: 24,
               }}
@@ -41,7 +41,7 @@ const Social: React.FC = () => {
           ) : name === "Github" ? (
             <GitHubIcon
               sx={{
-                color: "#E2E6EE",
+                color: "primary.contrastText",
                 width: 24,
                 height: 24,
               }}
@@ -49,7 +49,7 @@ const Social: React.FC = () => {
           ) : (
             <InstagramIcon
               sx={{
-                color: "#E2E6EE",
+                color: "primary.contrastText",
                 width: 24,
                 height: 24,
               }}
@@ -59,12 +59,12 @@ const Social: React.FC = () => {
       </Grid>
       <Grid item xs={10} sm={11} lg={10}>
         <Typography
-          sx={{ fontSize: "0.8rem", color: "#ACB1C3", lineHeight: 1.33 }}
+          sx={{ fontSize: "0.8rem", color: "primary.light", lineHeight: 1.33 }}
           mb={0.25}
         >
           {name}
         </Typography>
-        <Typography sx={{ color: "#E2E6EE", lineHeight: 1.29 }}>
+        <Typography sx={{ color: "primary.contrastText", lineHeight: 1.29 }}>
           {user}
         </Typography>
       </Grid>

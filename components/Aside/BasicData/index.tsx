@@ -35,7 +35,7 @@ const BasicData: React.FC = () => {
           {title ? (
             <EmailOutlinedIcon
               sx={{
-                color: "#E2E6EE",
+                color: "primary.contrastText",
                 width: 24,
                 height: 24,
               }}
@@ -43,7 +43,7 @@ const BasicData: React.FC = () => {
           ) : (
             <LocationOnIcon
               sx={{
-                color: "#E2E6EE",
+                color: "primary.contrastText",
                 width: 24,
                 height: 24,
               }}
@@ -53,12 +53,12 @@ const BasicData: React.FC = () => {
       </Grid>
       <Grid item xs={10} sm={11} lg={10}>
         <Typography
-          sx={{ fontSize: "0.8rem", color: "#ACB1C3", lineHeight: 1.33 }}
+          sx={{ fontSize: "0.8rem", color: "primary.light", lineHeight: 1.33 }}
           mb={0.25}
         >
           {title || address}
         </Typography>
-        <Typography sx={{ color: "#E2E6EE", lineHeight: 1.29 }}>
+        <Typography sx={{ color: "primary.contrastText", lineHeight: 1.29 }}>
           {subtitle || addressCity}
         </Typography>
       </Grid>

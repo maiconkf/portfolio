@@ -1,6 +1,7 @@
 import Aside from "../components/Aside";
 import { Box, Grid, Container } from "@mui/material";
 import Skills from "../components/Skills";
+import Experiences from "../components/Experiences/index";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
       <Grid item xs={12} lg={4} xl={3}>
         <Aside />
       </Grid>
-      <Grid item xs={12} lg={8} xl={9} px={[2, 2, 2, 9]}>
+      <Grid item xs={12} lg={8} xl={9} px={[2, 2, 2, 9]} py={5}>
+        <Experiences />
         <Skills />
       </Grid>
     </Grid>

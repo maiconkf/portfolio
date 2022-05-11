@@ -3,11 +3,16 @@ import React from "react";
 import Box from "../Box";
 import Session from "../Session";
 import Title from "../Session/Title";
+import { SkillsContent } from "../../utils/translation/skills";
+import { useRouter } from "next/router";
 
 const Skills: React.FC = () => {
+  const { locale } = useRouter();
+  const { skills } = SkillsContent[locale];
+
   return (
     <Session>
-      <Title title="Skills" />
+      <Title title={skills} />
       <Grid container spacing={1} mt={2}>
         <Grid item xs={6}>
           <Box borderRadius="8px 0px 0px 0px">

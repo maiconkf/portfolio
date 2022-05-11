@@ -5,8 +5,10 @@ import Head from "next/head";
 const theme = createTheme({
   palette: {
     primary: {
+      light: "#ACB1C3",
       main: "#2E2E48",
       dark: "#232339",
+      contrastText: "#E2E6EE",
     },
     secondary: {
       light: "#C696FC",
@@ -52,18 +54,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <Component {...pageProps} />
     </ThemeProvider>
   );

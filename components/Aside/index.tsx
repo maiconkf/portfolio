@@ -24,6 +24,7 @@ const Aside: React.FC = () => {
       sx={{
         backgroundColor: "primary.main",
         width: "100%",
+        height: "100%",
       }}
       p={[2, 2, 2, 3]}
     >
@@ -50,7 +51,7 @@ const Aside: React.FC = () => {
         <Divider sx={{ borderColor: "rgba(255, 255, 255, 0.1)", mb: 2 }} />
 
         <Typography
-          sx={{ fontSize: "0.8rem", color: "#ACB1C3", lineHeight: 1.33 }}
+          sx={{ fontSize: "0.8rem", color: "primary.light", lineHeight: 1.33 }}
           mb={0.25}
         >
           {languages}
@@ -81,11 +82,17 @@ const Aside: React.FC = () => {
               </Box>
             </Grid>
             <Grid item xs={10} sm={11} lg={10}>
-              <Typography sx={{ color: "#E2E6EE", lineHeight: 1.29 }}>
+              <Typography
+                sx={{ color: "primary.contrastText", lineHeight: 1.29 }}
+              >
                 {portuguese}
               </Typography>
               <Typography
-                sx={{ fontSize: "0.8rem", color: "#ACB1C3", lineHeight: 1.33 }}
+                sx={{
+                  fontSize: "0.8rem",
+                  color: "primary.light",
+                  lineHeight: 1.33,
+                }}
                 mb={0.25}
               >
                 {native}
@@ -119,11 +126,17 @@ const Aside: React.FC = () => {
               </Box>
             </Grid>
             <Grid item xs={10} sm={11} lg={10}>
-              <Typography sx={{ color: "#E2E6EE", lineHeight: 1.29 }}>
+              <Typography
+                sx={{ color: "primary.contrastText", lineHeight: 1.29 }}
+              >
                 {english}
               </Typography>
               <Typography
-                sx={{ fontSize: "0.8rem", color: "#ACB1C3", lineHeight: 1.33 }}
+                sx={{
+                  fontSize: "0.8rem",
+                  color: "primary.light",
+                  lineHeight: 1.33,
+                }}
                 mb={0.25}
               >
                 {advanced}
