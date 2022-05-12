@@ -2,17 +2,18 @@ import { Box } from "@mui/material";
 import React, { ReactNode } from "react";
 
 type Props = {
+  content?: string;
   children: ReactNode;
 };
 
-const Session: React.FC<Props> = ({ children }) => {
+const Session: React.FC<Props> = ({ content = '""', children }) => {
   return (
     <Box
       pb={3}
       sx={{
         position: "relative",
         "&:before": {
-          content: '""',
+          content,
           position: "absolute",
           left: -33,
           top: 0,

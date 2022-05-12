@@ -2,6 +2,7 @@ import Aside from "../components/Aside";
 import { Box, Grid, Container } from "@mui/material";
 import Skills from "../components/Skills";
 import Experiences from "../components/Experiences/index";
+import Education from "../components/Education";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </Grid>
       <Grid item xs={12} lg={8} xl={9} px={[2, 2, 2, 9]} py={5}>
         <Experiences />
+        <Education />
         <Skills />
       </Grid>
     </Grid>

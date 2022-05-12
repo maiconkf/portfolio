@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
   const { skills } = SkillsContent[locale];
 
   return (
-    <Session>
+    <Session content="none">
       <Title title={skills} />
       <Grid container spacing={1} mt={2}>
         <Grid item xs={6}>

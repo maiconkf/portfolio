@@ -10,14 +10,14 @@ export default function Document() {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <body>
         <Main />
         <NextScript />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
       </body>
     </Html>
   );

@@ -1,6 +1,3 @@
-import { Link } from "@mui/material";
-
-
 export const ExperiencesContent = {
   "pt-BR": {
     latest_experiences: 'Últimas Experiências',

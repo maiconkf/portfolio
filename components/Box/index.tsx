@@ -2,22 +2,25 @@ import React, { ReactNode } from "react";
 import { Box as MuiBox, Typography } from "@mui/material";
 
 type Props = {
-  borderRadius?: string;
+  borderRadius?: string[] | string;
   flexDirection?: string;
+  justifyContent?: string;
+  alignItems?: string;
+  height?: number;
   children: ReactNode;
 };
 
-const Box: React.FC<Props> = ({ borderRadius, flexDirection, children }) => {
+const Box: React.FC<Props> = ({ borderRadius, flexDirection, justifyContent = 'center', alignItems = 'center', height = 100, children }) => {
   return (
     <MuiBox
       sx={{
         borderRadius,
         backgroundColor: "primary.main",
-        height: 100,
+        height,
         display: "flex",
         flexDirection,
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent,
+        alignItems,
 
         "& ul": {
           padding: 0,
@@ -36,7 +39,7 @@ const Box: React.FC<Props> = ({ borderRadius, flexDirection, children }) => {
           },
         },
       }}
-      py={2}
+      p={2}
     >
       {children}
     </MuiBox>

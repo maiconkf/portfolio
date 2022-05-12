@@ -17,7 +17,7 @@ const Experiences: React.FC = () => {
       <Box>
         {companies.map(({ date, company, img, role, about }, idx) => (
           <Grid key={idx} container spacing={2} mt={0} alignItems="center">
-            <Grid item xs={4}>
+            <Grid item sm={4} lg={5} xl={4}>
               <Typography
                 sx={{
                   fontSize: 12,
@@ -99,12 +99,29 @@ const Experiences: React.FC = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={8}>
+            <Grid
+              item
+              sm={8}
+              lg={7}
+              xl={8}
+            >
               <Typography
                 sx={{
                   color: "primary.light",
                   fontSize: 14,
                   lineHeight: 1.29,
+
+                position: "relative",
+                "&:before": {
+                  content: ['""', "none"],
+                  position: "absolute",
+                  left: -10,
+                  top: -8,
+                  width: "1px",
+                  height: "calc(100% + 16px)",
+                  backgroundColor: "secondary.dark",
+                  display: idx + 1 < companies.length ? "block" : "none",
+                },
                   "& a": { color: "secondary.main", textDecoration: "none" },
                 }}
                 dangerouslySetInnerHTML={{
