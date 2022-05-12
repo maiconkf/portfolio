@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Avatar, Box, Divider, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useRouter } from "next/router";
@@ -28,10 +29,18 @@ const Aside: React.FC = () => {
       }}
       p={[2, 2, 2, 3]}
     >
-      <Avatar
-        src="https://scontent.fpet3-1.fna.fbcdn.net/v/t1.6435-9/68902702_10214676645095308_8695338020066295808_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF0FVDwtQerYdM5vU5P8y5FjBaQYHQjvuGMFpBgdCO-4Q8lCBR2wN1X9e7ftUKUdgU&_nc_ohc=b89PjI5TJrkAX84b7KZ&_nc_ht=scontent.fpet3-1.fna&oh=00_AT-HDvssOh7varqL_-H9Rj0i_6QMTsXK1Mj5AYmoX-S3ow&oe=628F2782"
-        sx={{ width: 82, height: 82 }}
-      />
+      <picture>
+        <source srcSet={`/img/maicon-furtado@2x.webp 2x, /img/maicon-furtado@3x.webp 3x`} type="image/webp" />
+        <img
+          src={`/img/maicon-furtado.jpg`}
+          srcSet='/img/maicon-furtado@2x.jpg 2x, /img/maicon-furtado@3x.jpg 3x'
+          width="82"
+          height="82"
+          alt="Maicon Furtado - Senior Front-end Developer"
+          style={{ borderRadius: "100%" }}
+          loading="lazy"
+        />
+      </picture>
       <Typography variant="h1" mt={1} mb={0.5}>
         Maicon Furtado
       </Typography>

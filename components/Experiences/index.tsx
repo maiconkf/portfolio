@@ -1,5 +1,5 @@
-import { Box, Grid, Link, Typography } from "@mui/material";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
+import { Box, Grid, Typography } from "@mui/material";
 import { useRouter } from "next/router";
 import React from "react";
 import { ExperiencesContent } from "../../utils/translation/experiences";
@@ -68,12 +68,17 @@ const Experiences: React.FC = () => {
                     display: "flex",
                   }}
                 >
-                  <Image
-                    src={`/img/${img}.jpeg`}
-                    width="40"
-                    height="40"
-                    alt={company}
-                  />
+                  <picture>
+                    <source srcSet={`/img/${img}@2x.webp 2x, /img/${img}@3x.webp 3x`} type="image/webp" />
+                    <img
+                      src={`/img/${img}.jpg`}
+                      srcSet={`/img/${img}@2x.jpg 2x, /img/${img}@3x.jpg 3x`}
+                      width="40"
+                      height="40"
+                      alt={company}
+                      loading="lazy"
+                    />
+                  </picture>
                 </Box>
                 <Box pl={2}>
                   <Typography
@@ -111,17 +116,17 @@ const Experiences: React.FC = () => {
                   fontSize: 14,
                   lineHeight: 1.29,
 
-                position: "relative",
-                "&:before": {
-                  content: ['""', "none"],
-                  position: "absolute",
-                  left: -10,
-                  top: -8,
-                  width: "1px",
-                  height: "calc(100% + 16px)",
-                  backgroundColor: "secondary.dark",
-                  display: idx + 1 < companies.length ? "block" : "none",
-                },
+                  position: "relative",
+                  "&:before": {
+                    content: ['""', "none"],
+                    position: "absolute",
+                    left: -10,
+                    top: -8,
+                    width: "1px",
+                    height: "calc(100% + 16px)",
+                    backgroundColor: "secondary.dark",
+                    display: idx + 1 < companies.length ? "block" : "none",
+                  },
                   "& a": { color: "secondary.main", textDecoration: "none" },
                 }}
                 dangerouslySetInnerHTML={{
