@@ -35,7 +35,7 @@ const theme = createTheme({
       letterSpacing: "0.01em",
 
       "@media (min-width: 1200px)": {
-        fontSize: "1.49rem",
+        fontSize: "1.4rem",
       },
     },
 

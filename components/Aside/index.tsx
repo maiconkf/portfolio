@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Avatar, Box, Divider, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Divider, Grid, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
 import { useRouter } from "next/router";
 import { AsideContent } from "../../utils/translation/aside";
@@ -8,6 +8,7 @@ import Social from "./Social";
 import BasicData from "./BasicData";
 
 const Aside: React.FC = () => {
+  const matches = useMediaQuery('(max-height: 650px) and (min-width: 1200px)');
   const { locale, asPath } = useRouter();
   const {
     languages,
@@ -24,8 +25,11 @@ const Aside: React.FC = () => {
       component="aside"
       sx={{
         backgroundColor: "primary.main",
+        height: ['auto', 'auto', 'auto', "100vh"],
         width: "100%",
-        height: "100%",
+        position: ['static', 'static', 'static', 'sticky'],
+        overflow: matches ? 'auto' : 'unset',
+        top: 0,
       }}
       p={[2, 2, 2, 3]}
     >
@@ -92,7 +96,7 @@ const Aside: React.FC = () => {
             </Grid>
             <Grid item xs={10} sm={11} lg={10}>
               <Typography
-                sx={{ color: "primary.contrastText", lineHeight: 1.29 }}
+                sx={{ color: "primary.contrastText", fontSize: '0.9rem', lineHeight: 1.29 }}
               >
                 {portuguese}
               </Typography>
@@ -136,7 +140,7 @@ const Aside: React.FC = () => {
             </Grid>
             <Grid item xs={10} sm={11} lg={10}>
               <Typography
-                sx={{ color: "primary.contrastText", lineHeight: 1.29 }}
+                sx={{ color: "primary.contrastText", fontSize: '0.9rem', lineHeight: 1.29 }}
               >
                 {english}
               </Typography>
@@ -154,7 +158,7 @@ const Aside: React.FC = () => {
           </Grid>
         </Link>
       </Box>
-    </Box>
+    </Box >
   );
 };
 

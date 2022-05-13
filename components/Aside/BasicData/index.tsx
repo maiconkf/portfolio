@@ -58,7 +58,7 @@ const BasicData: React.FC = () => {
         >
           {title || address}
         </Typography>
-        <Typography sx={{ color: "primary.contrastText", lineHeight: 1.29 }}>
+        <Typography sx={{ color: "primary.contrastText", fontSize: '0.9rem', lineHeight: 1.29 }}>
           {subtitle || addressCity}
         </Typography>
       </Grid>

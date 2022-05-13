@@ -4,7 +4,8 @@ export const ProjectsContent = {
     arrProjects: [
       {
         project: "Vagonetas",
-        description: "Site desenvolvido em Next JS, Node JS, SQLite 3 e AWS.",
+        description:
+          "Site de vagas de emprego desenvolvido em Next JS, Node JS, SQLite 3 e AWS.",
         link: "https://www.vagonetas.com.br",
         img: "vagonetas",
         width: 128,
