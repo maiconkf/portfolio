@@ -1,6 +1,6 @@
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import Head from "next/head";
+import '../utils/style.css'
 
 const theme = createTheme({
   palette: {
@@ -35,7 +35,7 @@ const theme = createTheme({
       letterSpacing: "0.01em",
 
       "@media (min-width: 1200px)": {
-        fontSize: "1.5rem",
+        fontSize: "1.49rem",
       },
     },
 

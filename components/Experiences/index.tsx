@@ -128,6 +128,7 @@ const Experiences: React.FC = () => {
                     display: idx + 1 < companies.length ? "block" : "none",
                   },
                   "& a": { color: "secondary.main", textDecoration: "none" },
+                  "& br": { display: ['none', 'none', 'none', 'none', 'block'] }
                 }}
                 dangerouslySetInnerHTML={{
                   __html: sanitizeHtml(about),
@@ -137,7 +138,7 @@ const Experiences: React.FC = () => {
           </Grid>
         ))}
       </Box>
-    </Session>
+    </Session >
   );
 };
 
