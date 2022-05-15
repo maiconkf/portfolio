@@ -1,24 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import { Box, Divider, Grid, Typography, useMediaQuery } from "@mui/material";
+import { Box, Divider, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
-import { useRouter } from "next/router";
-import { AsideContent } from "../../utils/translation/aside";
-import Link from "next/link";
 import Social from "./Social";
 import BasicData from "./BasicData";
+import Languages from "./Languages";
 
 const Aside: React.FC = () => {
   const matches = useMediaQuery("(max-height: 650px) and (min-width: 1200px)");
-  const { locale, asPath } = useRouter();
-  const {
-    languages,
-    portuguese,
-    english,
-    native,
-    advanced,
-    brazil,
-    gran_britain,
-  } = AsideContent[locale];
 
   return (
     <Box
@@ -66,108 +54,7 @@ const Aside: React.FC = () => {
 
         <Divider sx={{ borderColor: "rgba(255, 255, 255, 0.1)", mb: 2 }} />
 
-        <Typography
-          sx={{ fontSize: "0.8rem", color: "primary.light", lineHeight: 1.33 }}
-          mb={0.25}
-        >
-          {languages}
-        </Typography>
-        <Link href={asPath} passHref locale="pt-BR">
-          <Grid
-            container
-            sx={{
-              alignItems: "center",
-              textDecoration: "none",
-              cursor: "pointer",
-            }}
-            mb={2}
-          >
-            <Grid item xs={2} sm={1} lg={2}>
-              <Box
-                sx={{ display: "flex", alignItems: "center" }}
-                width={36}
-                height={36}
-              >
-                <img
-                  src="/img/Flag_of_Brazil.svg"
-                  alt={brazil}
-                  style={{ borderRadius: "2px" }}
-                  width={36}
-                  height={25}
-                />
-              </Box>
-            </Grid>
-            <Grid item xs={10} sm={11} lg={10}>
-              <Typography
-                sx={{
-                  color: "primary.contrastText",
-                  fontSize: "0.9rem",
-                  lineHeight: 1.29,
-                }}
-              >
-                {portuguese}
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: "0.8rem",
-                  color: "primary.light",
-                  lineHeight: 1.33,
-                }}
-                mb={0.25}
-              >
-                {native}
-              </Typography>
-            </Grid>
-          </Grid>
-        </Link>
-        <Link href={asPath} passHref locale="en">
-          <Grid
-            container
-            sx={{
-              alignItems: "center",
-              textDecoration: "none",
-              cursor: "pointer",
-            }}
-            mb={2}
-          >
-            <Grid item xs={2} sm={1} lg={2}>
-              <Box
-                sx={{ display: "flex", alignItems: "center" }}
-                width={36}
-                height={36}
-              >
-                <img
-                  src="/img/Flag_of_Grain_Britain.svg"
-                  alt={gran_britain}
-                  style={{ borderRadius: "2px" }}
-                  width={36}
-                  height={27}
-                />
-              </Box>
-            </Grid>
-            <Grid item xs={10} sm={11} lg={10}>
-              <Typography
-                sx={{
-                  color: "primary.contrastText",
-                  fontSize: "0.9rem",
-                  lineHeight: 1.29,
-                }}
-              >
-                {english}
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: "0.8rem",
-                  color: "primary.light",
-                  lineHeight: 1.33,
-                }}
-                mb={0.25}
-              >
-                {advanced}
-              </Typography>
-            </Grid>
-          </Grid>
-        </Link>
+        <Languages />
       </Box>
     </Box>
   );
