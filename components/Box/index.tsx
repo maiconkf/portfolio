@@ -1,16 +1,35 @@
 import React, { ReactNode } from "react";
 import { Box as MuiBox } from "@mui/material";
 
+type FlexDirection =
+  | "column"
+  | "inherit"
+  | "-moz-initial"
+  | "initial"
+  | "revert"
+  | "unset"
+  | "column-reverse"
+  | "row"
+  | "row-reverse"
+  | undefined;
+
 type Props = {
   borderRadius?: string[] | string;
-  flexDirection?: string;
+  flexDirection?: FlexDirection;
   justifyContent?: string;
   alignItems?: string;
   height?: number;
   children: ReactNode;
 };
 
-const Box: React.FC<Props> = ({ borderRadius, flexDirection, justifyContent = 'center', alignItems = 'center', height = 100, children }) => {
+const Box: React.FC<Props> = ({
+  borderRadius,
+  flexDirection = "row",
+  justifyContent = "center",
+  alignItems = "center",
+  height = 100,
+  children,
+}) => {
   return (
     <MuiBox
       sx={{
@@ -18,9 +37,9 @@ const Box: React.FC<Props> = ({ borderRadius, flexDirection, justifyContent = 'c
         backgroundColor: "primary.main",
         height,
         display: "flex",
-        flexDirection,
         justifyContent,
         alignItems,
+        flexDirection,
 
         "& ul": {
           padding: 0,
