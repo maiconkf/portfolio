@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { Box as MuiBox, Typography } from "@mui/material";
+import { Box as MuiBox } from "@mui/material";
 
 type Props = {
   borderRadius?: string[] | string;

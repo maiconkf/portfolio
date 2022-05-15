@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Avatar, Box, Divider, Grid, Typography, useMediaQuery } from "@mui/material";
+import { Box, Divider, Grid, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
 import { useRouter } from "next/router";
 import { AsideContent } from "../../utils/translation/aside";
@@ -8,7 +8,7 @@ import Social from "./Social";
 import BasicData from "./BasicData";
 
 const Aside: React.FC = () => {
-  const matches = useMediaQuery('(max-height: 650px) and (min-width: 1200px)');
+  const matches = useMediaQuery("(max-height: 650px) and (min-width: 1200px)");
   const { locale, asPath } = useRouter();
   const {
     languages,
@@ -25,19 +25,22 @@ const Aside: React.FC = () => {
       component="aside"
       sx={{
         backgroundColor: "primary.main",
-        height: ['auto', 'auto', 'auto', "100vh"],
+        height: ["auto", "auto", "auto", "100vh"],
         width: "100%",
-        position: ['static', 'static', 'static', 'sticky'],
-        overflow: matches ? 'auto' : 'unset',
+        position: ["static", "static", "static", "sticky"],
+        overflow: matches ? "auto" : "unset",
         top: 0,
       }}
       p={[2, 2, 2, 3]}
     >
       <picture>
-        <source srcSet={`/img/maicon-furtado@2x.webp 2x, /img/maicon-furtado@3x.webp 3x`} type="image/webp" />
+        <source
+          srcSet={`/img/maicon-furtado@2x.webp 2x, /img/maicon-furtado@3x.webp 3x`}
+          type="image/webp"
+        />
         <img
           src={`/img/maicon-furtado.jpg`}
-          srcSet='/img/maicon-furtado@2x.jpg 2x, /img/maicon-furtado@3x.jpg 3x'
+          srcSet="/img/maicon-furtado@2x.jpg 2x, /img/maicon-furtado@3x.jpg 3x"
           width="82"
           height="82"
           alt="Maicon Furtado - Senior Front-end Developer"
@@ -96,7 +99,11 @@ const Aside: React.FC = () => {
             </Grid>
             <Grid item xs={10} sm={11} lg={10}>
               <Typography
-                sx={{ color: "primary.contrastText", fontSize: '0.9rem', lineHeight: 1.29 }}
+                sx={{
+                  color: "primary.contrastText",
+                  fontSize: "0.9rem",
+                  lineHeight: 1.29,
+                }}
               >
                 {portuguese}
               </Typography>
@@ -140,7 +147,11 @@ const Aside: React.FC = () => {
             </Grid>
             <Grid item xs={10} sm={11} lg={10}>
               <Typography
-                sx={{ color: "primary.contrastText", fontSize: '0.9rem', lineHeight: 1.29 }}
+                sx={{
+                  color: "primary.contrastText",
+                  fontSize: "0.9rem",
+                  lineHeight: 1.29,
+                }}
               >
                 {english}
               </Typography>
@@ -158,7 +169,7 @@ const Aside: React.FC = () => {
           </Grid>
         </Link>
       </Box>
-    </Box >
+    </Box>
   );
 };
 
