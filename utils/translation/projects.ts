@@ -13,7 +13,7 @@ export const ProjectsContent = {
       {
         project: "Ahub",
         description:
-          "Projeto de um compilador online desenvolvido em React JS + Redux.",
+          "Projeto de um compilador online desenvolvido em React JS + Redux. Login: admin / admin",
         link: "https://ahub.maiconfurtado.com.br",
         img: "ahub",
         width: 128,
@@ -41,7 +41,7 @@ export const ProjectsContent = {
       {
         project: "Ahub",
         description:
-          "Project of an online compiler developed in React JS + Redux.",
+          "Project of an online compiler developed in React JS + Redux. Login: admin / admin",
         link: "https://ahub.maiconfurtado.com.br",
         img: "ahub",
         width: 128,
