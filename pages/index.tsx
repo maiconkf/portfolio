@@ -1,5 +1,5 @@
 import Aside from "../components/Aside";
-import { Box, Grid, Container } from "@mui/material";
+import { Grid } from "@mui/material";
 import Skills from "../components/Skills";
 import Experiences from "../components/Experiences/index";
 import Education from "../components/Education";
