@@ -130,8 +130,8 @@ const Skills: React.FC = () => {
           <Box borderRadius="0px 0px 8px 0px">
             <ul>
               <li>React Native</li>
+              <li>Flutter</li>
               <li>Wordpress</li>
-              <li>Git</li>
             </ul>
           </Box>
         </Grid>
