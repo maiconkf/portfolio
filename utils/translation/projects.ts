@@ -3,12 +3,12 @@ export const ProjectsContent = {
     projects: "Projetos",
     arrProjects: [
       {
-        project: "Vagonetas",
+        project: "Quory",
         description:
-          "Site de vagas de emprego desenvolvido em Next JS, Node JS, SQLite 3 e AWS.",
-        link: "https://www.vagonetas.com.br",
-        img: "vagonetas",
-        width: 128,
+          "Rede social de eventos desenvolvido em Flutter + Firebase.",
+        link: "https://quoryapp.com",
+        img: "quory",
+        width: 86,
       },
       {
         project: "Ahub",
