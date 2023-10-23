@@ -3,10 +3,10 @@ picture {
 }
 
 .MuiListSubheader-root {
-  background-color: transparent;
-  color: #fff;
-  font-size: 1rem;
-  line-height: 1.5;
-  padding: 0;
-  position: relative;
+  background-color: transparent !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  padding: 0 !important;
+  position: relative !important;
 }
