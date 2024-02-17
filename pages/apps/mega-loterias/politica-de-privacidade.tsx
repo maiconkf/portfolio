@@ -20,14 +20,13 @@ export default function Home() {
         <Typography variant="h1" pt={4} pb={0.5}>
           Política de Privacidade
         </Typography>
-        <Typography>Atualizado em: 23 de outubro de 2023</Typography>
+        <Typography>Atualizado em: 17 de fevereiro de 2024</Typography>
         <Typography pt={3}>
           Esta Política de Privacidade descreve como as informações são
           coletadas, usadas e compartilhadas quando você usa o aplicativo
-          &quot;Mega Palpites da Virada&quot;, que utiliza o Firebase para
-          Analytics e o AdMob para exibição de anúncios. Ao usar nosso
-          aplicativo, você concorda com as práticas de privacidade descritas
-          abaixo.
+          &quot;Mega Loterias&quot;, que utiliza o Firebase para Analytics e o
+          AdMob para exibição de anúncios. Ao usar nosso aplicativo, você
+          concorda com as práticas de privacidade descritas abaixo.
         </Typography>
         <List sx={{ listStyle: "decimal", pl: 2 }}>
           <ListItem sx={{ display: "list-item" }}>
@@ -37,7 +36,7 @@ export default function Home() {
               sx={{ listStyle: "disc", pt: 2 }}
             >
               <ListItem sx={{ display: "list-item", pl: 0 }}>
-                <ListItemText primary="O Mega Palpites da Virada utiliza o Firebase Analytics para coletar informações anônimas sobre o uso do aplicativo. Isso inclui dados sobre interações com o aplicativo, como a frequência de uso, as telas visitadas e as ações realizadas. Essas informações são usadas para melhorar a qualidade e o desempenho do aplicativo." />
+                <ListItemText primary="O Mega Loterias utiliza o Firebase Analytics para coletar informações anônimas sobre o uso do aplicativo. Isso inclui dados sobre interações com o aplicativo, como a frequência de uso, as telas visitadas e as ações realizadas. Essas informações são usadas para melhorar a qualidade e o desempenho do aplicativo." />
               </ListItem>
             </List>
             <List
@@ -61,7 +60,7 @@ export default function Home() {
               sx={{ listStyle: "disc", pt: 2 }}
             >
               <ListItem sx={{ display: "list-item", pt: 1, pb: 0, px: 0 }}>
-                <ListItemText primary="Melhorar o aplicativo Mega Palpites da Virada, tornando-o mais útil e eficiente." />
+                <ListItemText primary="Melhorar o aplicativo Mega Loterias, tornando-o mais útil e eficiente." />
               </ListItem>
               <ListItem sx={{ display: "list-item", p: 0 }}>
                 <ListItemText primary="Personalizar a exibição de anúncios com base em seus interesses." />
@@ -99,7 +98,7 @@ export default function Home() {
             <ListItemText primary="Privacidade de Crianças" />
             <List sx={{ pt: 1 }}>
               <ListItem sx={{ display: "list-item", p: 0 }}>
-                <ListItemText primary="O Mega Palpites da Virada não se destina a crianças menores de 13 anos. Não coletamos intencionalmente informações de crianças menores de 13 anos. Se você acredita que coletamos informações de uma criança, entre em contato conosco para que possamos tomar medidas adequadas." />
+                <ListItemText primary="O Mega Loterias não se destina a crianças menores de 13 anos. Não coletamos intencionalmente informações de crianças menores de 13 anos. Se você acredita que coletamos informações de uma criança, entre em contato conosco para que possamos tomar medidas adequadas." />
               </ListItem>
             </List>
           </ListItem>
@@ -121,8 +120,8 @@ export default function Home() {
           </ListItem>
         </List>
         <Typography pb={6}>
-          Ao continuar a usar o Mega Palpites da Virada, você concorda com esta
-          Política de Privacidade.
+          Ao continuar a usar o Mega Loterias, você concorda com esta Política
+          de Privacidade.
         </Typography>
       </Container>
     </Grid>
