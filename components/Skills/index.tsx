@@ -77,7 +77,7 @@ const Skills: React.FC = () => {
                 m: 0,
               }}
             >
-              Gastsby
+              Gatsby
             </Typography>
           </Box>
         </Grid>
