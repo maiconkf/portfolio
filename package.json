@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o .next",
+    "build": "next build && next export && cp -r out/* .next/",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
