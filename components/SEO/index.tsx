@@ -49,7 +49,7 @@ const SEO: React.FC = () => {
           <meta property="og:locale:alternate" content="en" />
         </>
       )}
-      <meta name="theme-color" content="#2E2E48" />
+      <meta name="theme-color" content="#07070D" />
     </Head>
   );
 };

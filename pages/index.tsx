@@ -1,29 +1,22 @@
-import Aside from "../components/Aside";
-import { Grid } from "@mui/material";
-import Skills from "../components/Skills";
-import Experiences from "../components/Experiences/index";
-import Education from "../components/Education";
+import { Box } from "@mui/material";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 import Projects from "../components/Projects";
+import Experience from "../components/Experience";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <Grid
-      sx={{
-        backgroundColor: "primary.dark",
-        minHeight: "100vh",
-      }}
-    >
-      <Grid container sx={{ backgroundColor: "primary.dark" }}>
-        <Grid item xs={12} lg={3}>
-          <Aside />
-        </Grid>
-        <Grid item xs={12} lg={9} px={[2, 2, 2, 9]} py={5} ml="auto">
-          <Experiences />
-          <Projects />
-          <Education />
-          <Skills />
-        </Grid>
-      </Grid>
-    </Grid>
+    <Box sx={{ backgroundColor: "background.default", minHeight: "100vh", overflowX: "hidden" }}>
+      <Navbar />
+      <main>
+        <Hero />
+        <Projects />
+        <Experience />
+        <Skills />
+        <Contact />
+      </main>
+    </Box>
   );
 }

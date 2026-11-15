@@ -8,23 +8,18 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2e2e48" />
-        <meta name="msapplication-TileColor" content="#2e2e48" />
-        <meta name="theme-color" content="#2e2e48" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#07070D" />
+        <meta name="msapplication-TileColor" content="#07070D" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
+          rel="stylesheet"
         />
       </Head>
       <body>
         <Main />
         <NextScript />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
       </body>
     </Html>
   );
