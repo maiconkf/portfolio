@@ -1,12 +1,12 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { getContent } from "../../utils/translation/content";
+import { useLocale } from "../../utils/locale";
 import { colors, fonts } from "../../utils/theme";
 
 const Navbar: React.FC = () => {
-  const { locale, asPath } = useRouter();
+  const locale = useLocale();
   const { nav } = getContent(locale);
   const [scrolled, setScrolled] = useState(false);
 
@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
   ];
 
   const langs = [
-    { code: "pt-BR", label: "PT" },
-    { code: "en", label: "EN" },
+    { code: "pt-BR", label: "PT", href: "/" },
+    { code: "en", label: "EN", href: "/en" },
   ];
 
   return (
@@ -107,10 +107,10 @@ const Navbar: React.FC = () => {
             backgroundColor: "rgba(255,255,255,0.03)",
           }}
         >
-          {langs.map(({ code, label }) => {
+          {langs.map(({ code, label, href }) => {
             const active = locale === code;
             return (
-              <Link key={code} href={asPath} locale={code} passHref scroll={false}>
+              <Link key={code} href={href} passHref scroll={false}>
                 <Box
                   component="a"
                   aria-current={active ? "true" : undefined}

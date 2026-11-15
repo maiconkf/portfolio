@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Box, Typography } from "@mui/material";
-import { useRouter } from "next/router";
+import { useLocale } from "../../utils/locale";
 import React from "react";
 import { getContent } from "../../utils/translation/content";
 import { colors, fonts } from "../../utils/theme";
@@ -11,7 +11,7 @@ import SpotlightCard from "../SpotlightCard";
 const groupColors = [colors.violet, colors.blue, colors.pink];
 
 const Skills: React.FC = () => {
-  const { locale } = useRouter();
+  const locale = useLocale();
   const { skills, education } = getContent(locale);
 
   return (

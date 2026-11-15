@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Box, Typography } from "@mui/material";
-import { useRouter } from "next/router";
+import { useLocale } from "../../utils/locale";
 import React from "react";
 import sanitizeHtml from "sanitize-html-react";
 import { getContent } from "../../utils/translation/content";
@@ -16,7 +16,7 @@ const sanitize = (html: string) =>
   });
 
 const Experience: React.FC = () => {
-  const { locale } = useRouter();
+  const locale = useLocale();
   const { experience } = getContent(locale);
 
   return (

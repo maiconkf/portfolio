@@ -1,6 +1,6 @@
 import { Box, Container, Typography } from "@mui/material";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
-import { useRouter } from "next/router";
+import { useLocale } from "../../utils/locale";
 import React from "react";
 import { contact, getContent } from "../../utils/translation/content";
 import { colors, fonts } from "../../utils/theme";
@@ -10,7 +10,7 @@ import { Eyebrow } from "../Section";
 import SocialLinks from "../SocialLinks";
 
 const Contact: React.FC = () => {
-  const { locale } = useRouter();
+  const locale = useLocale();
   const { contact: t } = getContent(locale);
 
   return (

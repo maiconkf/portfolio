@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
 import NorthEastRoundedIcon from "@mui/icons-material/NorthEastRounded";
-import { useRouter } from "next/router";
+import { useLocale } from "../../utils/locale";
 import React from "react";
 import { getContent } from "../../utils/translation/content";
 import { colors, fonts } from "../../utils/theme";
@@ -15,7 +15,7 @@ import {
 } from "./Visuals";
 
 const Projects: React.FC = () => {
-  const { locale } = useRouter();
+  const locale = useLocale();
   const { projects } = getContent(locale);
   const en = locale === "en";
 

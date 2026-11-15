@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Box, Container, Grid, Typography } from "@mui/material";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
-import { useRouter } from "next/router";
+import { useLocale } from "../../utils/locale";
 import React from "react";
 import { contact, getContent } from "../../utils/translation/content";
 import { colors, fonts } from "../../utils/theme";
@@ -11,7 +11,7 @@ import SocialLinks from "../SocialLinks";
 const delay = (ms: number) => ({ animationDelay: `${ms}ms` });
 
 const Hero: React.FC = () => {
-  const { locale } = useRouter();
+  const locale = useLocale();
   const { hero } = getContent(locale);
 
   return (

@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
+import { useLocale } from "../../utils/locale";
 import React from "react";
 import { SEOContent } from "../../utils/translation/seo";
 
 const SEO: React.FC = () => {
-  const { locale } = useRouter();
+  const locale = useLocale();
 
   const { description } = SEOContent[locale];
 
